@@ -9,7 +9,7 @@ ul {
 }
 
 :root {
-    --main-color: #833C8D;
+    --main-color: #55527C;
     --dark-color: #130F49;
     --yellow-color: #FF972D;
     --blue-color: #A5A6FF;
@@ -703,7 +703,7 @@ body::-webkit-scrollbar-thumb {
     min-height: 100vh;
     clear: both;
     float: left;
-    background-color: #833C8D
+    background-color: #effbf8
 }
 
 .elisc_tm_home .details {
