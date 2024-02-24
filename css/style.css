@@ -348,7 +348,8 @@ body::-webkit-scrollbar-thumb {
     height: auto;
     clear: both;
     margin: 0 auto;
-    padding: 0 20px
+    padding: 0 20px;
+    background-color: #FFFFFF;
 }
 
 .elisc_tm_topbar {
@@ -540,7 +541,8 @@ body::-webkit-scrollbar-thumb {
     height: auto;
     clear: both;
     float: left;
-    text-align: center
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .elisc_tm_sidebar .author {
@@ -638,12 +640,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_sidebar .menu ul li a {
-    color: var(--main-color);
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
-    transition: all .3s ease
+    transition: all .3s ease;
+    color: #FFFFFF;
 }
 
 .elisc_tm_sidebar .menu ul li.active a,
@@ -682,8 +684,8 @@ body::-webkit-scrollbar-thumb {
     display: inline-block;
     position: relative;
     border-radius: 100%;
-    background-color: rgba(19, 15, 73, .05);
-    color: var(--dark-color)
+    background-color: #FFFFFF;
+    color: #463376
 }
 
 .elisc_tm_sidebar .social ul li i {
@@ -736,7 +738,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .blueColor {
-    color: var(--blue-color)
+    color: #463376;
 }
 
 .yellowColor {
@@ -747,7 +749,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     max-width: 80%;
     float: left;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    color: #211E53;
 }
 
 .elisc_tm_button {
@@ -827,7 +830,7 @@ body::-webkit-scrollbar-thumb {
     position: absolute;
     content: "";
     width: 4px;
-    background-color: var(--yellow-color);
+    background-color: #F0ECFF;
     top: 0;
     bottom: 0
 }
@@ -867,14 +870,16 @@ body::-webkit-scrollbar-thumb {
 .elisc_tm_about {
     width: 100%;
     float: left;
-    padding-top: 130px
+    padding-top: 130px;
+    background-color: #F0ECFF;
 }
 
 .elisc_tm_biography {
     width: 100%;
     float: left;
     display: flex;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    background-color: #F0ECFF;
 }
 
 .elisc_tm_biography .left {
@@ -929,7 +934,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_biography .info ul {
-    margin: 0
+    margin: 0;
+    color: #463376;
 }
 
 .elisc_tm_biography .info ul li {
@@ -953,7 +959,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_biography .info ul li a {
-    color: var(--dark-color);
+    color: #463376;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -962,7 +968,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_biography .info ul li a:hover {
-    color: var(--yellow-color)
+    color: #a5a6ff;
 }
 
 .elisc_tm_counter {
@@ -1263,7 +1269,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .service_list .title h3 {
-    font-size: 20px
+    font-size: 20px;
+    color: #211E53;
 }
 
 .service_list .text {
@@ -2904,7 +2911,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .elisc_tm_sidebar {
-        width: 300px
+        width: 300px;
+        background-color: #463376;
     }
 
     .elisc_tm_mainpart {
@@ -2920,7 +2928,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .elisc_tm_sidebar .name .back {
-        font-size: 18px
+        font-size: 18px;
+        color: #FFFFFF; 
     }
 
     .elisc_tm_sidebar .name span {
@@ -2975,11 +2984,13 @@ body::-webkit-scrollbar-thumb {
     }
 
     .elisc_tm_biography .title .mini {
-        margin-bottom: 5px
+        margin-bottom: 5px;
+        color: #463376;
     }
 
     .elisc_tm_biography .name {
-        font-size: 35px
+        font-size: 35px;
+        color: #463376;
     }
 
     .elisc_tm_biography .job {
@@ -3212,7 +3223,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .elisc_tm_biography .text p {
-        margin-bottom: 17px
+        margin-bottom: 17px;
+        color: #463376;
     }
 
     .elisc_tm_counter ul li {
