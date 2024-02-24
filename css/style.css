@@ -1043,7 +1043,7 @@ body::-webkit-scrollbar-thumb {
 .elisc_tm_experience {
     width: 100%;
     float: left;
-    background-color: #f3f9ff;
+    background-color: #FFFFFF;
     padding: 100px 0 70px
 }
 
@@ -1056,7 +1056,8 @@ body::-webkit-scrollbar-thumb {
 
 .elisc_tm_title {
     width: 100%;
-    float: left
+    float: left;
+    color: #463376;
 }
 
 .elisc_tm_title[data-position=center] {
@@ -1894,7 +1895,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     min-height: 100vh;
     float: left;
-    background-color: #e9f9ff;
+    background-color: #F0ECFF;
     padding-top: 120px
 }
 
@@ -1936,7 +1937,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_contact .wrapper .info ul li a {
-    color: var(--dark-color);
+    color: #463376;
     font-weight: 600;
     font-family: var(--font-inter);
     display: inline-block;
@@ -1993,7 +1994,8 @@ body::-webkit-scrollbar-thumb {
 .elisc_tm_contact .fields ul li input {
     width: 100%;
     height: 60px;
-    background-color: #fff
+    background-color: #F0ECFF;
+    border-color: #463376;
 }
 
 .elisc_tm_contact .fields ul li input:focus {
@@ -2005,7 +2007,8 @@ body::-webkit-scrollbar-thumb {
     height: 120px;
     resize: none;
     margin-bottom: 15px;
-    background-color: #fff
+    background-color: #F0ECFF;
+    border-color: #463376;
 }
 
 .elisc_tm_contact .fields .last textarea:focus {
@@ -3010,7 +3013,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .elisc_tm_title h3 {
-        font-size: 35px
+        font-size: 35px;
+        color: #463376;
     }
 
     .elisc_tm_title span {
@@ -3018,7 +3022,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .elisc_tm_experience .list ul li .list_inner {
-        padding: 40px
+        padding: 40px;
+        background-color: #F0ECFF;
     }
 
     .elisc_tm_experience .job h3 {
