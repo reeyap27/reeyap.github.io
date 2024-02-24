@@ -1151,7 +1151,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_experience .text p {
-    opacity: .7
+    opacity: .7;
+    color: #211E53;
 }
 
 .elisc_tm_services {
@@ -3018,7 +3019,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .elisc_tm_title span {
-        margin-bottom: 4px
+        margin-bottom: 4px;
+        color: #463376;
     }
 
     .elisc_tm_experience .list ul li .list_inner {
@@ -3027,7 +3029,8 @@ body::-webkit-scrollbar-thumb {
     }
 
     .elisc_tm_experience .job h3 {
-        font-size: 19px
+        font-size: 19px;
+        color: #463376;
     }
 
     .elisc_tm_experience .job span {
