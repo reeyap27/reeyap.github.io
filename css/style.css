@@ -1893,7 +1893,7 @@ body::-webkit-scrollbar-thumb {
 
 .elisc_tm_contact {
     width: 100%;
-    min-height: 100vh;
+    min-height: 75vh;
     float: left;
     background-color: #F0ECFF;
     padding-top: 120px
