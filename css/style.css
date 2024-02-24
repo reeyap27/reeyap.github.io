@@ -358,7 +358,7 @@ body::-webkit-scrollbar-thumb {
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #fff;
+    background-color: #463376;
     z-index: 15;
     display: none
 }
