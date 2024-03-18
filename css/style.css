@@ -2003,6 +2003,15 @@ body::-webkit-scrollbar-thumb {
     outline: none
 }
 
+.elisc_tm_contact .fields .first textarea {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    margin-bottom: 15px;
+    background-color: #F0ECFF;
+    border-color: #463376;
+}
+
 .elisc_tm_contact .fields .last textarea {
     width: 100%;
     height: 120px;
