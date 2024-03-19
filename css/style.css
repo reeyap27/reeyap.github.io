@@ -1965,6 +1965,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .elisc_tm_contact .wrapper .right {
+    padding-top: 45px;
     width: 50%;
     padding-left: 50px
 }
